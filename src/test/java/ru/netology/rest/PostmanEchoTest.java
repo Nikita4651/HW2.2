@@ -1,11 +1,16 @@
 package ru.netology.rest;
 
+
+
 import org.junit.jupiter.api.Test;
 
-import static com.google.common.base.Predicates.equalTo;
+import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.given;
 
-class Postman {
+
+
+class PostmanEchoTest {
+
 
     @Test
             void test1() {
